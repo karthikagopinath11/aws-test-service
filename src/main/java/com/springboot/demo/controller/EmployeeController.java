@@ -35,7 +35,7 @@ public class EmployeeController {
 
 	//Save employee
 	@PostMapping("/saveEmployee")
-	@Operation(summary = "Saves the employee details--New change", description = "Returns true if successfully saved")
+	@Operation(summary = "Saves the employee details --New change", description = "Returns true if successfully saved")
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "Successfully saved"),
 	})
