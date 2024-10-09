@@ -1,0 +1,125 @@
+2022-08-28 21:15:22.673  INFO 8124 --- [main] c.s.demo.CrudSpringbootApplication       : Starting CrudSpringbootApplication using Java 17.0.4 on KarthikaC-952 with PID 8124 (C:\Projects\spring-boot-crud-operation\target\classes started by karthika.c in C:\Projects\spring-boot-crud-operation)
+2022-08-28 21:15:22.676  INFO 8124 --- [main] c.s.demo.CrudSpringbootApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-28 21:15:23.349  INFO 8124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-28 21:15:23.418  INFO 8124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2022-08-28 21:15:24.008  INFO 8124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-28 21:15:24.019  INFO 8124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-28 21:15:24.019  INFO 8124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-28 21:15:24.168  INFO 8124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-28 21:15:24.169  INFO 8124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1427 ms
+2022-08-28 21:15:24.227  INFO 8124 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-28 21:15:24.432  INFO 8124 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-28 21:15:24.445  INFO 8124 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-08-28 21:15:24.644  INFO 8124 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-28 21:15:24.691  INFO 8124 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-28 21:15:24.846  INFO 8124 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-28 21:15:24.948  INFO 8124 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-08-28 21:15:25.431  INFO 8124 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-28 21:15:25.438  INFO 8124 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-28 21:15:25.776  WARN 8124 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-28 21:15:26.533  INFO 8124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-28 21:15:26.550  INFO 8124 --- [main] c.s.demo.CrudSpringbootApplication       : Started CrudSpringbootApplication in 4.301 seconds (JVM running for 4.818)
+2022-08-28 21:15:30.585  INFO 8124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-28 21:15:30.593  INFO 8124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-28 21:15:30.594  INFO 8124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-28 21:15:30.683 ERROR 8124 --- [http-nio-8080-exec-1] c.s.d.serviceimpl.EmployeeServiceImpl    : Failed to fetch employee details
+2022-08-28 21:15:30.684 ERROR 8124 --- [http-nio-8080-exec-1] c.s.d.serviceimpl.EmployeeServiceImpl    : Employee id not found
+2022-08-28 21:16:39.056  INFO 15308 --- [main] c.s.demo.CrudSpringbootApplication       : Starting CrudSpringbootApplication using Java 17.0.4 on KarthikaC-952 with PID 15308 (C:\Projects\spring-boot-crud-operation\target\classes started by karthika.c in C:\Projects\spring-boot-crud-operation)
+2022-08-28 21:16:39.058  INFO 15308 --- [main] c.s.demo.CrudSpringbootApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-28 21:16:39.830  INFO 15308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-28 21:16:39.906  INFO 15308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2022-08-28 21:16:40.580  INFO 15308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-28 21:16:40.593  INFO 15308 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-28 21:16:40.594  INFO 15308 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-28 21:16:40.749  INFO 15308 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-28 21:16:40.751  INFO 15308 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1627 ms
+2022-08-28 21:16:40.790  INFO 15308 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-28 21:16:40.987  INFO 15308 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-28 21:16:40.999  INFO 15308 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-08-28 21:16:41.247  INFO 15308 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-28 21:16:41.308  INFO 15308 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-28 21:16:41.487  INFO 15308 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-28 21:16:41.606  INFO 15308 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-08-28 21:16:42.143  INFO 15308 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-28 21:16:42.154  INFO 15308 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-28 21:16:42.544  WARN 15308 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-28 21:16:43.432  INFO 15308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-28 21:16:43.448  INFO 15308 --- [main] c.s.demo.CrudSpringbootApplication       : Started CrudSpringbootApplication in 4.858 seconds (JVM running for 5.537)
+2022-08-28 21:17:06.310  INFO 15308 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-28 21:17:06.311  INFO 15308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-28 21:17:06.312  INFO 15308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-08-28 21:17:06.400 ERROR 15308 --- [http-nio-8080-exec-1] c.s.d.serviceimpl.EmployeeServiceImpl    : Failed to fetch employee details
+2022-08-28 21:17:06.401 ERROR 15308 --- [http-nio-8080-exec-1] c.s.d.serviceimpl.EmployeeServiceImpl    : Employee id not found
+2022-08-28 21:17:55.225  INFO 13088 --- [main] c.s.demo.CrudSpringbootApplication       : Starting CrudSpringbootApplication using Java 17.0.4 on KarthikaC-952 with PID 13088 (C:\Projects\spring-boot-crud-operation\target\classes started by karthika.c in C:\Projects\spring-boot-crud-operation)
+2022-08-28 21:17:55.227  INFO 13088 --- [main] c.s.demo.CrudSpringbootApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-28 21:17:56.088  INFO 13088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-28 21:17:56.158  INFO 13088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2022-08-28 21:17:56.977  INFO 13088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-28 21:17:56.998  INFO 13088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-28 21:17:56.999  INFO 13088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-28 21:17:57.196  INFO 13088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-28 21:17:57.197  INFO 13088 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1909 ms
+2022-08-28 21:17:57.243  INFO 13088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-28 21:17:57.479  INFO 13088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-28 21:17:57.490  INFO 13088 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-08-28 21:17:57.730  INFO 13088 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-28 21:17:57.790  INFO 13088 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-28 21:17:57.999  INFO 13088 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-28 21:17:58.141  INFO 13088 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-08-28 21:17:58.718  INFO 13088 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-28 21:17:58.729  INFO 13088 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-28 21:17:59.229  WARN 13088 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-28 21:18:00.195  INFO 13088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-28 21:18:00.211  INFO 13088 --- [main] c.s.demo.CrudSpringbootApplication       : Started CrudSpringbootApplication in 5.437 seconds (JVM running for 6.078)
+2022-08-28 21:18:07.317  INFO 13088 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-28 21:18:07.318  INFO 13088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-28 21:18:07.319  INFO 13088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-28 21:18:07.442 ERROR 13088 --- [http-nio-8080-exec-1] c.s.d.serviceimpl.EmployeeServiceImpl    : Failed to fetch employee details
+2022-08-28 21:18:07.443 ERROR 13088 --- [http-nio-8080-exec-1] c.s.d.serviceimpl.EmployeeServiceImpl    : Employee id not found
+2022-08-28 21:31:19.483  INFO 21940 --- [main] c.s.demo.CrudSpringbootApplication       : Starting CrudSpringbootApplication using Java 17.0.4 on KarthikaC-952 with PID 21940 (C:\Projects\spring-boot-crud-operation\target\classes started by karthika.c in C:\Projects\spring-boot-crud-operation)
+2022-08-28 21:31:19.488  INFO 21940 --- [main] c.s.demo.CrudSpringbootApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-28 21:31:20.227  INFO 21940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-28 21:31:20.285  INFO 21940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2022-08-28 21:31:20.957  INFO 21940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-28 21:31:20.967  INFO 21940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-28 21:31:20.967  INFO 21940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-28 21:31:21.119  INFO 21940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-28 21:31:21.127  INFO 21940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1578 ms
+2022-08-28 21:31:21.171  INFO 21940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-28 21:31:21.374  INFO 21940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-28 21:31:21.385  INFO 21940 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-08-28 21:31:21.629  INFO 21940 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-28 21:31:21.687  INFO 21940 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-28 21:31:21.861  INFO 21940 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-28 21:31:21.967  INFO 21940 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-08-28 21:31:22.487  INFO 21940 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-28 21:31:22.495  INFO 21940 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-28 21:31:22.841  WARN 21940 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-28 21:31:23.670  INFO 21940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-28 21:31:23.689  INFO 21940 --- [main] c.s.demo.CrudSpringbootApplication       : Started CrudSpringbootApplication in 4.642 seconds (JVM running for 5.215)
+2022-08-28 21:31:59.662  INFO 10112 --- [main] c.s.demo.CrudSpringbootApplication       : Starting CrudSpringbootApplication using Java 17.0.4 on KarthikaC-952 with PID 10112 (C:\Projects\spring-boot-crud-operation\target\classes started by karthika.c in C:\Projects\spring-boot-crud-operation)
+2022-08-28 21:31:59.665  INFO 10112 --- [main] c.s.demo.CrudSpringbootApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-28 21:32:00.433  INFO 10112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-28 21:32:00.489  INFO 10112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2022-08-28 21:32:01.173  INFO 10112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-28 21:32:01.185  INFO 10112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-28 21:32:01.185  INFO 10112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-28 21:32:01.335  INFO 10112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-28 21:32:01.342  INFO 10112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1614 ms
+2022-08-28 21:32:01.377  INFO 10112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-28 21:32:01.586  INFO 10112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-28 21:32:01.599  INFO 10112 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-08-28 21:32:01.814  INFO 10112 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-28 21:32:01.863  INFO 10112 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-28 21:32:02.021  INFO 10112 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-28 21:32:02.129  INFO 10112 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-08-28 21:32:02.613  INFO 10112 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-28 21:32:02.620  INFO 10112 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-28 21:32:03.006  WARN 10112 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-28 21:32:03.784  INFO 10112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-28 21:32:03.800  INFO 10112 --- [main] c.s.demo.CrudSpringbootApplication       : Started CrudSpringbootApplication in 4.559 seconds (JVM running for 5.165)
+2022-08-28 21:32:10.165  INFO 10112 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-28 21:32:10.165  INFO 10112 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-28 21:32:10.166  INFO 10112 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-28 21:32:10.269 ERROR 10112 --- [http-nio-8080-exec-2] c.s.d.serviceimpl.EmployeeServiceImpl    : Failed to fetch employee details
+2022-08-28 21:32:10.270 ERROR 10112 --- [http-nio-8080-exec-2] c.s.d.serviceimpl.EmployeeServiceImpl    : Employee id not found
