@@ -37,7 +37,7 @@ public class EmployeeController {
 	@PostMapping("/saveEmployee")
 	@Operation(summary = "Saves the employee details", description = "Returns true if successfully saved")
 	@ApiResponses(value = {
-			@ApiResponse(responseCode = "200", description = "Successfully saved"),
+			@ApiResponse(responseCode = "200", description = "Successfully saved employee details"),
 	})
 	private ResponseEntity<Boolean> createEmployee(@RequestBody Employee employee)  {
 		log.debug("Starting saveEmployee method");
@@ -52,7 +52,7 @@ public class EmployeeController {
 	//Get all
 	@Operation(summary = "Get all employees", description = "Retrieves all employee details")
 	@ApiResponses(value = {
-			@ApiResponse(responseCode = "200", description = "Successfully retrieved"),
+			@ApiResponse(responseCode = "200", description = "Successfully retrieved the employee details"),
 	})
 	@GetMapping("/getAllEmployees")
 	// @RequestMapping(method = RequestMethod.GET)
@@ -63,7 +63,7 @@ public class EmployeeController {
 	//Get by employee id
 	@Operation(summary = "Get employees by id", description = "Retrieves the employee details based on id")
 	@ApiResponses(value = {
-			@ApiResponse(responseCode = "200", description = "Successfully retrieved"),
+			@ApiResponse(responseCode = "200", description = "Successfully retrieved the employee details"),
 			@ApiResponse(responseCode = "404", description = "Employee id not found"),
 
 	})
@@ -82,7 +82,7 @@ public class EmployeeController {
 	//Update
 	@Operation(summary = "Update employee", description = "Updates the employee details")
 	@ApiResponses(value = {
-			@ApiResponse(responseCode = "200", description = "Successfully updated"),
+			@ApiResponse(responseCode = "200", description = "Successfully updated employee details"),
 	})
 	@PutMapping("/updateEmployee")
 	private void updateEmployee(@RequestBody Employee employee) {
@@ -92,7 +92,7 @@ public class EmployeeController {
 	//Delete
 	@Operation(summary = "Delete employee by id", description = "Delete an employee by id")
 	@ApiResponses(value = {
-			@ApiResponse(responseCode = "200", description = "Successfully deleted"),
+			@ApiResponse(responseCode = "200", description = "Successfully deleted employee details"),
 	})
 	@DeleteMapping("/deleteEmployee/{employeeId}")
 	private void deleteEmployee(@PathVariable("employeeId") int employeeId) {
