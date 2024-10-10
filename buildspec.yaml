@@ -1,7 +1,7 @@
 version: 0.2
 
 phases:
-  build_jar_and_login_to_ecr:
+  pre_build:
     commands:
       - mvn clean install
       - echo Logging in to Amazon ECR...
@@ -9,7 +9,7 @@ phases:
       - REPOSITORY_URI=872515274294.dkr.ecr.ap-south-1.amazonaws.com/karthikarepo
       - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin $REPOSITORY_URI
       - IMAGE_TAG=build-$(echo $CODEBUILD_BUILD_ID | awk -F":" '{print $2}')
-  build_docker_image_and_tag:
+  build:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
